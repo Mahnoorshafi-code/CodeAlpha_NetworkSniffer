@@ -39,28 +39,31 @@ The *Network Sniffer* is a Python-based tool that captures and analyzes network 
 2. Install Scapy:
 ```bash
 pip install scapy
-
+```
 Clone this repository:
-
+```bash
 git clone Mahnoorshafi-code/CodeAlpha_NetworkSniffer cd network-sniffer 
-
+```
 Usage
 
 Run the sniffer:
-python sniffer.py 
+```bash
+python sniffer.py
+``` 
 Options:
 
 Capture all packets:
-
+```bash
 python sniffer.py --all 
-
+```
 Filter packets by protocol:
-
+```bash
 python sniffer.py --protocol TCP 
-
+```
 Save captured packets:
-
-python sniffer.py --save captured_packets.txt 
+```bash
+python sniffer.py --save captured_packets.txt
+``` 
 Captured packets display:
 
 Source IP
